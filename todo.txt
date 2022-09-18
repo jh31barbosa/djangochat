@@ -1,0 +1,10 @@
+Done - Sign up functionality
+Done - Log out functionality
+Done - Log in functionality
+
+Done-Create app for rooms
+Done-Create superuser (admin - pass the usual twenty four)
+Done-Show list of rooms
+Done-Room detail view
+Done-Creating a consumer
+-Joining a chat
