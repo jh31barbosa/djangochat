@@ -9,7 +9,9 @@ constantly==15.1.0
 cryptography==38.0.1
 daphne==3.0.2
 dill==0.3.5.1
+dj-database-url==1.0.0
 Django==4.1.1
+django-on-heroku==1.1.2
 gunicorn==20.1.0
 hyperlink==21.0.0
 idna==3.3
@@ -18,6 +20,8 @@ isort==5.10.1
 lazy-object-proxy==1.7.1
 mccabe==0.7.0
 platformdirs==2.5.2
+psycopg==3.1.1
+psycopg2-binary==2.9.3
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pycparser==2.21
@@ -31,5 +35,6 @@ tomlkit==0.11.4
 Twisted==22.8.0
 txaio==22.2.1
 typing_extensions==4.3.0
+whitenoise==6.2.0
 wrapt==1.14.1
 zope.interface==5.4.0
