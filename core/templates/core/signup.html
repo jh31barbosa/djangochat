@@ -1,29 +1,29 @@
 {% extends 'core/base.html' %}
 
-{% block title %}Cadastrar | {%  endblock %}
+{% block title %}Sign up | {%  endblock %}
 
 {% block content %}
 <div class="p-10 lg:p-20 text-center">
-    <h1 class="text-3xl lg:text-6xl text-white">Cadastrar</h1>
+    <h1 class="text-3xl lg:text-6xl text-white">Sign up</h1>
 </div>
 
 <form method="post" action="." class="lg:w-1/4 px-4 mx-auto">
     {% csrf_token %}
 
     <div class="mb-5">
-        <label class="text-white">Nome de Usuario</label>
+        <label class="text-white">Username</label>
 
         <input type="text" name="username" class="w-full mt-2 px-4 py-2 rounded-xl">
     </div>
 
     <div class="mb-5">
-        <label class="text-white">Senha</label>
+        <label class="text-white">Password</label>
 
         <input type="password" name="password1" class="w-full mt-2 px-4 py-2 rounded-xl">
     </div>
 
     <div class="mb-5">
-        <label class="text-white">Repita a Senha</label>
+        <label class="text-white">Repet password</label>
 
         <input type="password" name="password2" class="w-full mt-2 px-4 py-2 rounded-xl">
     </div>
@@ -38,6 +38,6 @@
         {% endfor %}
     {% endif %}
 
-    <button class="px-5 py-3 rounded-xl text-white bg-blue-800 hover:bg-blue-700">Enviar</button>
+    <button class="px-5 py-3 rounded-xl text-white bg-blue-800 hover:bg-blue-700">Submit</button>
 </form>
 {% endblock %}

@@ -1,23 +1,23 @@
 {% extends 'core/base.html' %}
 
-{% block title %}Entrar | {%  endblock %}
+{% block title %}Login | {%  endblock %}
 
 {% block content %}
 <div class="p-10 lg:p-20 text-center">
-    <h1 class="text-3xl lg:text-6xl text-white">Entrar</h1>
+    <h1 class="text-3xl lg:text-6xl text-white">Login</h1>
 </div>
 
 <form method="post" action="." class="lg:w-1/4 px-4 mx-auto">
     {% csrf_token %}
 
     <div class="mb-5">
-        <label class="text-white">Nome de Usuário</label>
+        <label class="text-white">Username</label>
 
         <input type="text" name="username" class="w-full mt-2 px-4 py-2 rounded-xl">
     </div>
 
     <div class="mb-5">
-        <label class="text-white">Senha</label>
+        <label class="text-white">Password</label>
 
         <input type="password" name="password" class="w-full mt-2 px-4 py-2 rounded-xl">
     </div>
@@ -33,6 +33,6 @@
         {% endfor %}
     {% endif %}
 
-    <button class="px-5 py-3 rounded-xl text-white bg-blue-800 hover:bg-blue-700">Entrar</button>
+    <button class="px-5 py-3 rounded-xl text-white bg-blue-800 hover:bg-blue-700">Login</button>
 </form>
 {% endblock %}
