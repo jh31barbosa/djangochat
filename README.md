@@ -1,6 +1,6 @@
 # djangochat
 Chat construido com django e estilizado com tailwind.
-A aplicação simula um web-chat para conversas sobre tópicos específicos sendo necessário criar o cadastro para pode acessar as salas(rooms) e clicar no tópico desejado.
+A aplicação simula um web-chat para conversas sobre tópicos específicos sendo necessário criar o cadastro para ter acesso as salas(rooms) contendo os  tópicos desejados.
 
 O deploy foi realizado no Heroku no seguinte link:
 https://
