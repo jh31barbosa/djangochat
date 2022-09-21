@@ -3,9 +3,8 @@ from django.shortcuts import render, redirect
 
 from .forms import SignUpForm
 
-
 def frontpage(request):
-    return render (request,'core/frontpage.html')
+    return render(request, 'core/frontpage.html')
 
 def signup(request):
     if request.method == 'POST':
@@ -17,8 +16,7 @@ def signup(request):
             login(request, user)
 
             return redirect('frontpage')
-
     else:
         form = SignUpForm()
-
+    
     return render(request, 'core/signup.html', {'form': form})
