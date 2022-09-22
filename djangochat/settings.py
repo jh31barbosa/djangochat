@@ -139,6 +139,6 @@ django_on_heroku.settings(locals())
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_TRUSTED_ORIGINS = [
-    'https://django-web-chat.herokuapp.com/'
-]
+#CSRF_TRUSTED_ORIGINS = [
+   # 'https://django-web-chat.herokuapp.com/'
+#]
