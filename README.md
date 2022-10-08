@@ -5,4 +5,4 @@ A aplicação simula um web-chat para conversas sobre tópicos específicos send
 O deploy foi realizado no Heroku no seguinte link:
 https://django-web-chat.herokuapp.com
 
-Ps: Projeto em fase de teste, pois algumas funcionalidades apresentaram problemas após o deploy e por isso estão fora do ar. 
+Ps: Vídeo demonstrando as funcionalidades da apliacação pode ser encontrado dentro da pasta video.
